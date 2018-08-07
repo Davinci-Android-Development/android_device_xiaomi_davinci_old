@@ -12,3 +12,7 @@ service vendor.motor /vendor/bin/hw/vendor.xiaomi.hardware.motor@1.0-service
 
 on property init.svc.vendor.motor=running
     stop vendor.motor
+
+on boot
+    chown system system /proc/touchpanel/wake_gesture
+    chmod 0660 /proc/touchpanel/wake_gesture

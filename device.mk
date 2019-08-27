@@ -58,6 +58,10 @@ PRODUCT_PACKAGES += \
     init.mi_thermald.rc \
     init.qcom.rc
 
+# Device-specific settings
+PRODUCT_PACKAGES += \
+    XiaomiParts
+
 # Display
 PRODUCT_PACKAGES += \
     libdisplayconfig \

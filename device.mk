@@ -47,8 +47,7 @@ PRODUCT_COPY_FILES += \
 
 # Bluetooth
 PRODUCT_PACKAGES += \
-    libbluetooth_qti \
-    libbt-logClient.so
+    libbthost_if
 
 # Custom init script
 PRODUCT_PACKAGES += \

@@ -1,4 +1,4 @@
- Copyright (C) 2019 Paranoid Android
+ Copyright (C) 2019 Havoc OS
  
   Device configuration for Xiaomi Xiaomi Mi 9T / Redmi K20
  =========================================

@@ -16,8 +16,8 @@
 cc_binary {
     relative_install_path: "hw",
     defaults: ["hidl_defaults"],
-    name: "vendor.pa.camera.motor@1.0-service.xiaomi_davinci",
-    init_rc: ["vendor.pa.camera.motor@1.0-service.xiaomi_davinci.rc"],
+    name: "vendor.lineage.camera.motor@1.0-service.xiaomi_davinci",
+    init_rc: ["vendor.lineage.camera.motor@1.0-service.xiaomi_davinci.rc"],
     srcs: ["service.cpp", "CameraMotor.cpp"],
     shared_libs: [
         "libbase",
@@ -27,6 +27,6 @@ cc_binary {
         "liblog",
         "libhwbinder",
         "libutils",
-        "vendor.pa.camera.motor@1.0",
+        "vendor.lineage.camera.motor@1.0",
     ],
 }

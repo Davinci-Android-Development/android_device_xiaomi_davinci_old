@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-#define LOG_TAG "vendor.pa.camera.motor@1.0-service.xiaomi_davinci"
+#define LOG_TAG "vendor.lineage.camera.motor@1.0-service.xiaomi_davinci"
 
 #include <android-base/logging.h>
 #include <hidl/HidlTransportSupport.h>
@@ -24,8 +24,8 @@
 using android::hardware::configureRpcThreadpool;
 using android::hardware::joinRpcThreadpool;
 
-using vendor::pa::camera::motor::V1_0::ICameraMotor;
-using vendor::pa::camera::motor::V1_0::implementation::CameraMotor;
+using vendor::lineage::camera::motor::V1_0::ICameraMotor;
+using vendor::lineage::camera::motor::V1_0::implementation::CameraMotor;
 
 using android::OK;
 using android::status_t;

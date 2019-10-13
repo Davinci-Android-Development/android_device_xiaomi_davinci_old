@@ -13,15 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-#ifndef VENDOR_PA_CAMERA_MOTOR_V1_0_H
-#define VENDOR_PA_CAMERA_MOTOR_V1_0_H
+#ifndef VENDOR_LINEAGE_CAMERA_MOTOR_V1_0_H
+#define VENDOR_LINEAGE_CAMERA_MOTOR_V1_0_H
 
-#include <vendor/pa/camera/motor/1.0/ICameraMotor.h>
+#include <vendor/lineage/camera/motor/1.0/ICameraMotor.h>
 
 #include <android-base/unique_fd.h>
 
 namespace vendor {
-namespace pa {
+namespace lineage {
 namespace camera {
 namespace motor {
 namespace V1_0 {
@@ -48,7 +48,7 @@ class CameraMotor : public ICameraMotor {
 }  // namespace V1_0
 }  // namespace motor
 }  // namespace camera
-}  // namespace pa
+}  // namespace lineage
 }  // namespace vendor
 
-#endif  // VENDOR_pa_CAMERA_MOTOR_V1_0_H
+#endif  // VENDOR_LINEAGE_CAMERA_MOTOR_V1_0_H

@@ -20,6 +20,8 @@
 #include <android-base/logging.h>
 #include <hidl/HidlTransportSupport.h>
 
+#include <misc/drv8846.h>
+
 #define CAMERA_ID_FRONT "1"
 #define MOTOR_DEV_PATH "/dev/drv8846_dev"
 
@@ -29,7 +31,7 @@
 #define MOTOR_IOC_SET_AUTORUN		_IOW(0xD3, 0x01, uint8_t)
 
 namespace vendor {
-namespace pa {
+namespace lineage {
 namespace camera {
 namespace motor {
 namespace V1_0 {
@@ -65,5 +67,5 @@ Return<void> CameraMotor::onDisconnect(const hidl_string& cameraId) {
 }  // namespace V1_0
 }  // namespace motor
 }  // namespace camera
-}  // namespace pa
+}  // namespace lineage
 }  // namespace vendor

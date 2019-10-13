@@ -1,5 +1,5 @@
-service vendor.camera-motor-1-0 /system/bin/hw/vendor.pa.camera.motor@1.0-service.xiaomi_davinci
-    interface vendor.pa.camera.motor@1.0::ICameraMotor default
+service vendor.camera-motor-1-0 /system/bin/hw/vendor.lineage.camera.motor@1.0-service.xiaomi_davinci
+    interface vendor.lineage.camera.motor@1.0::ICameraMotor default
     class hal
     user system
     group system

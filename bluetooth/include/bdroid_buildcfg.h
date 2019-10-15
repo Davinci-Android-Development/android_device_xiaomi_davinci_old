@@ -22,11 +22,6 @@
 #ifndef _BDROID_BUILDCFG_H
 #define _BDROID_BUILDCFG_H
 
-#include <cutils/properties.h>
-#include <string.h>
-
-#include "osi/include/osi.h"
-
 #define BTM_DEF_LOCAL_NAME "Xiaomi Mi9t"
 // Disables read remote device feature
 #define MAX_ACL_CONNECTIONS   16

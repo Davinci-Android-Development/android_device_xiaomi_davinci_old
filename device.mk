@@ -58,11 +58,6 @@ PRODUCT_PACKAGES += \
     init.mi_thermald.rc \
     init.qcom.rc
 
-# Camera Motor
-PRODUCT_PACKAGES += \
-    vendor.pa.camera.motor@1.0 \
-    vendor.pa.camera.motor@1.0-service.xiaomi_davinci
-
 # Display
 PRODUCT_PACKAGES += \
     libdisplayconfig \
